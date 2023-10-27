@@ -15,7 +15,7 @@ Deberá ser capaz de trabajar con repositorios GIT.
 - Una vez realizada la foto deberán enviarse los datos a una API cuya documentación se encuentra en: https://test.aitaca.io/Aitaca/1.0.0/ui/
 - Por último, deberá mostrarse una ventana mostrando los resultados.
 ## A tener en cuenta
-- El diseño de la primera ventana deberá ser fiel al indicado en el Figma.
+- El diseño de la primera ventana deberá ser fiel al indicado en el Figma, exceptuando la selección de la moneda, que queda a decisión del desarrollador como marcar la selección del usuario.
 - El diseño del resto de ventanas queda a libre decisión del desarrollador.
 - Deberá incluirse un README.md con instrucciones para la ejecución de la aplicación.
 ## Instrucciones de entrega
