@@ -4,6 +4,7 @@ import './App.css';
 import Home from "./pages/home";
 import Resultados from './pages/resultados';
 import Footer from './components/footer';
+import Camara from './pages/camara';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='/camara' element={<Camara/>} />
           <Route path='/resultados' element={<Resultados/>} />
         </Routes>
         <Footer />

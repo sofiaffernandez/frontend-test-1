@@ -1,6 +1,12 @@
 import React from 'react';
+import { useNavigate  } from 'react-router-dom';
 
 function Resultados(datosFoto) {
+  const navigate = useNavigate ();
+  const navigateHome = () => {
+    navigate('/');
+  };  
+  //mostrar los resultados y botón de volver 
   return (
     <div>
         <h2>Resultados</h2>
@@ -16,7 +22,9 @@ function Resultados(datosFoto) {
         <p>No hay datos de foto disponibles.</p>
         
         )}
-        <button>Volver</button>
+         <div className='botones'>
+                <button className='volver' onClick={() => navigateHome}>Volver</button>
+        </div>
     </div>
   )
 }

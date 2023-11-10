@@ -1,38 +1,89 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10%;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h2, p {
+  font-family: 'Inter', sans-serif;
+}
+
+div {
+  margin: 5% 0%;
+}
+
+div .monedas {
+  border: 1px solid rgba(169, 169, 169, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 4%;
+}
+
+div .monedas img {
+  max-width: 15%;
+  height: auto;
+}
+
+footer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer img {
+  max-width: 15%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div .botones {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 5%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+
+.volver, .siguiente {
+  width: 50%;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.volver {
+  border: 1px solid rgb(216, 114, 114);
+  background-color: transparent;
+  color: rgb(216, 114, 114);
+}
+
+.siguiente {
+  background-color: rgb(216, 114, 114);
+  border: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+div.mano {
+  border: 1px solid rgba(169, 169, 169, 0.5);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mano img {
+  align-self: center;
+  max-width: 30%;
 }
+
+.opcion{
+  border: 1px solid rgba(169, 169, 169, 0.5);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
